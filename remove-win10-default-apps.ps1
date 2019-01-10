@@ -29,5 +29,6 @@ Get-AppxPackage -AllUsers *windowsmaps* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *windowsphone* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *windowsstore* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *xboxapp* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *xboxidentityprovider* | Remove-AppxPackag
 Get-AppxPackage -AllUsers *zunemusic* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *zunevideo* | Remove-AppxPackage
