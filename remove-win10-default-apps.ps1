@@ -19,6 +19,7 @@ Get-AppxPackage -AllUsers *plex* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *skypeapp* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *solitairecollection* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *soundrecorder* | Remove-AppxPackage
+Get-AppxPackage -AllUsers *storepurchaseapp* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *sway* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *wallet* | Remove-AppxPackage
 Get-AppxPackage -AllUsers *windowsalarms* | Remove-AppxPackage
