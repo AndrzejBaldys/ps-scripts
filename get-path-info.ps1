@@ -5,5 +5,5 @@ foreach ($path in $paths) {
    $path = '"' + $path + '",'
    $path | Out-File -FilePath $output -Append
  }
-Write-Host "Out put file location: " $output
+Write-Host "File location: " $output
 

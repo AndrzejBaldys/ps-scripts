@@ -4,4 +4,4 @@ foreach ($key in $PSVersionTable.Keys) {
    $info = '"' + $key + '","' + $PSVersionTable[$key] + '"'
    $info | Out-File -FilePath $output -Append
  }
-Write-Host "Out put file location: " $output
+Write-Host "File location: " $output
